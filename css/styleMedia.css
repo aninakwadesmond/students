@@ -1,0 +1,143 @@
+@media (max-width: 62em) {
+  html {
+    font-size: 56.25%;
+  }
+  .header {
+    font-size: 3.8rem;
+  }
+  .main-head {
+    font-size: 4.5rem;
+    font-weight: 500;
+  }
+  .text {
+    font-size: 2.2rem;
+    letter-spacing: 1.1px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 55em) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    font-size: 3.5rem;
+  }
+  .main-head {
+    max-width: 70%;
+    margin-bottom: 1rem;
+  }
+  .text {
+    font-size: 2.8rem;
+    letter-spacing: 1.1px;
+    line-height: 1.6;
+    word-spacing: 0.8rem;
+  }
+  .uenrbook-img {
+    width: 70%;
+  }
+}
+@media (max-width: 42em) {
+  html {
+    font-size: 43.75%;
+  }
+  .main-head {
+    max-width: 80%;
+    margin-bottom: 1rem;
+  }
+  .text {
+    font-size: 2.9rem;
+    letter-spacing: 1.05px;
+    line-height: 1.6;
+    word-spacing: 0.5rem;
+  }
+  .uenrbook-img {
+    width: 80%;
+  }
+}
+@media (max-width: 38em) {
+  html {
+    font-size: 37.5%;
+  }
+  .main-head {
+    max-width: 100%;
+    margin-bottom: 1.3rem;
+  }
+  .grid--2 {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    max-width: 110rem;
+    margin: 0 auto;
+    /* background-color: #e6e6e6; */
+  }
+  .text {
+    font-size: 3.4rem;
+    letter-spacing: 1.05px;
+    line-height: 1.6;
+    word-spacing: 0.5rem;
+  }
+  .uenrbook-img {
+    width: 45%;
+    justify-self: center;
+    position: relative;
+  }
+  .center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main--content {
+    background-image: none;
+  }
+  /* main {
+    background-color: #e6e6e6;
+  } */
+  .center-image::after {
+    content: ' ';
+    display: block;
+    width: 40rem;
+    padding-bottom: 40rem;
+    border-radius: 50%;
+    background-color: #eef7f2;
+    position: absolute;
+    z-index: -2;
+  }
+  .center-image::before {
+    content: ' ';
+    display: block;
+    width: 30rem;
+    padding-bottom: 30rem;
+    border-radius: 50%;
+    background-color: #def0e4;
+    position: absolute;
+    z-index: -1;
+  }
+  .header {
+    background-color: #f8f9fa;
+    padding-bottom: 0.5rem;
+  }
+  .btn {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+}
+@media (max-width: 38em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  /* main {
+    background-color: #e6e6e6;
+  } */
+  .center-image::after {
+    width: 35rem;
+    padding-bottom: 35rem;
+  }
+  .center-image::before {
+    width: 30rem;
+    padding-bottom: 30rem;
+  }
+  .uenrbook-img {
+    width: 70%;
+  }
+}

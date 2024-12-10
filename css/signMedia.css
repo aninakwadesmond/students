@@ -1,0 +1,16 @@
+@media (max-width: 27em) {
+  html {
+    font-size: 60%;
+  }
+  .main--container {
+    width: 34rem;
+  }
+  .header-primary {
+    font-size: 2.5rem;
+    font-weight: 650;
+  }
+  .form-item > label {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+}

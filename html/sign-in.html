@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" src="../js/sign-in.js"></script>
+    <link rel="stylesheet" href="../css/sign-up.css" />
+    <link rel="stylesheet" href="../css/signMedia.css" />
+  </head>
+  <body id="body">
+    <section class="account">
+      <header class="grid grid--4">
+        <div class="color-1"></div>
+        <div class="color-2"></div>
+        <div class="color-3"></div>
+        <div class="color-4"></div>
+      </header>
+
+      <form action="#" class="container-form flex flex-center">
+        <div class="main--container">
+          <div class="center-image">
+            <img src="../img/images.png" alt="" srcset="" class="form-image" />
+          </div>
+          <div class="form-input container br">
+            <h1 class="header-primary">Login</h1>
+            <ul class="form-items">
+              <li class="form-item">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" class="text" />
+              </li>
+              <li class="form-item parent">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="pass"
+                  required
+                  class="password"
+                />
+                <span class="eye-on">
+                  <ion-icon name="eye-off-outline" class="see"></ion-icon>
+                  <ion-icon name="eye-outline" class="hide"></ion-icon>
+                </span>
+              </li>
+              <li class="form-item">
+                <input type="submit" value="Log in" class="btn-submit" />
+              </li>
+              <li class="form-item flex flex-center margin-btn">
+                <a href="#" class="forget-password">forget Password ?</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </form>
+
+      <!-- i will create this with javascript -->
+      <div class="container-error">
+        <!-- <div class="error" style="display: none">
+        <p>
+          Please enter your full name <br />
+          <span class="c-name">eg 'Aninakwa Desmond'</span>
+        </p>
+      </div>
+      <div class="success" style="display: none">
+        <p>
+          successful
+          <ion-icon name="checkmark-circle-outline" class="icon"></ion-icon>
+        </p>
+      </div> -->
+      </div>
+      <div class="cl-bg">
+        <div class="containing me">
+          <div class="contentInfo move">
+            <p class="flex-own">
+              <ion-icon name="logo-reddit" class="ai"></ion-icon
+              ><span class="uenr">UenrAI</span>
+            </p>
+            <p>
+              (Database
+              <ion-icon name="server-outline" class="ai2"></ion-icon> ) From
+              server side 🛠
+            </p>
+            <p>No database to retrieve your password</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container-loader">
+      <div class="loader"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  height: 100vh;
+}
+.main--content {
+  background-image: url('../img/frontImg.png');
+  background-size: cover;
+}
+
+.header {
+  background-color: #fdfdfd;
+  color: #59b379;
+  font-size: 4rem;
+  font-weight: 200;
+  /* padding: 2rem 3rem; */
+  padding-top: 1.5rem;
+  letter-spacing: 1.02px;
+  line-height: 1.2;
+}
+.hide {
+  display: none;
+}
+.main-head {
+  color: #09120c;
+  letter-spacing: 0.4px;
+  line-height: 1.15;
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  padding-top: 4rem;
+  word-spacing: 0.4rem;
+  max-width: 60%;
+}
+.text {
+  color: #09120c;
+  font-size: 1.8rem;
+  letter-spacing: 1.1px;
+  line-height: 1.5;
+}
+.uenrbook-img {
+  width: 60%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex--center {
+  justify-content: center;
+}
+
+/* Content */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  /* background-color: #e6e6e6; */
+}
+.grid {
+  display: grid;
+  gap: 4rem 0;
+}
+.grid--2 {
+  grid-template-columns: 3fr 2fr;
+}
+.text-content {
+  margin: 0 4rem 0 4rem;
+}
+
+.margin-btn {
+  margin-bottom: 9rem;
+}
+.btn {
+  border: none;
+  background: none;
+  color: #59b379;
+  font-size: 2.3rem;
+  font-weight: 500;
+  padding: 1.6rem 3.2rem;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+.btn span {
+  /* border-bottom: transparent; */
+  border-bottom: 1.5px solid #eef7f2;
+}
+.btn:hover {
+  color: #eef7f2;
+  background-color: #59b379;
+  cursor: pointer;
+}
+
+.btn-center {
+  display: flex;
+}
+/*,  
+Size system : 16 20 28 32 40 42 60 64
+
+
+/* color */
+
+/* 
+color:#59b379; 
+background-color:#e6e6e6
+ */
+
+/* Padding
+ 10 20 30 40 
+  */
+
+.container-loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 5px solid #adb5bd;
+  border-top: 5px solid #ebfbee;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

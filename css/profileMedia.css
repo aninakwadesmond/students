@@ -1,0 +1,148 @@
+@media (max-width: 54em) {
+  html {
+    font-size: 50%;
+  }
+  .student-code {
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+  .gap-info {
+    font-size: 1.5rem;
+  }
+  .check1 {
+    letter-spacing: 1.1px;
+    right: 15%;
+  }
+  .stick-top1 {
+    top: 5%;
+  }
+}
+@media (max-width: 44em) {
+  .overlimit {
+    overflow-x: auto;
+  }
+}
+@media (max-width: 47em) {
+  .grid--main {
+    grid-template-columns: 1fr;
+  }
+  .check1 {
+    display: block;
+    margin: 0;
+    padding: 2rem 0;
+  }
+  .check {
+    display: none;
+  }
+  .username {
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
+  .student-code {
+    font-size: 1.8rem;
+  }
+  .details {
+    margin: 3rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .gap-info {
+    gap: 2rem;
+  }
+  .check1 {
+    right: 20%;
+  }
+  .list-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .stick-top11,
+  .stick-top1 {
+    position: fixed;
+    width: 100%;
+  }
+  .stick-top11 {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+  }
+  .stick-top1 {
+    left: 0;
+    top: 8%;
+    background-color: rgba(255, 255, 255);
+    z-index: 3;
+  }
+
+  .details-container1 {
+    margin-top: 27rem;
+    overflow: hidden;
+  }
+}
+@media (max-width: 33rem) {
+  html {
+    font-size: 46%;
+  }
+  .stick-top1 {
+    top: 6%;
+  }
+}
+@media (max-width: 30em) {
+  html {
+    font-size: 45%;
+  }
+
+  .student-code {
+    display: none;
+  }
+  .grid-details {
+    grid-template-columns: 1fr;
+  }
+  .stick-top11,
+  .stick-top1 {
+    position: fixed;
+    width: 100%;
+  }
+  .stick-top11 {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+  }
+  .stick-top1 {
+    left: 0;
+    top: 6%;
+    background-color: rgba(255, 255, 255);
+    z-index: 2;
+  }
+  .details-container {
+    margin-top: 0rem;
+    overflow: hidden;
+  }
+  .list-label {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  .container3 {
+    padding: 0 0.35rem;
+  }
+  .containeR {
+    max-width: 98%;
+  }
+
+  .table {
+    height: 100%;
+  }
+  .btn-download {
+    font-size: 1rem;
+  }
+  .text1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+@media (max-width: 26rem) {
+  .grid--5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
